@@ -1,4 +1,4 @@
-import Gambar from '../../components/img.js';
+import Gambar from '../../components/Img.js';
 import Kelas from './home1.css'
 
 const Home1 = () => {

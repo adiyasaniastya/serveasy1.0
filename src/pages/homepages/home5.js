@@ -1,7 +1,7 @@
-import Gambar from '../../components/img.js';
+import Gambar from '../../components/Img.js';
 import Kelas from './home1.css'
 
-const home5 = () => {
+const Home5 = () => {
     return(
       <div className='ComingSoon'>
         <h2 className={Kelas.Judul}> Unduh Aplikasinya dan nikmati fiturnya!</h2>
@@ -17,4 +17,4 @@ const home5 = () => {
     )
 };
 
-export default home5;
+export default Home5;

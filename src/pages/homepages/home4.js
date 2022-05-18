@@ -1,7 +1,7 @@
-import Gambar from '../../components/img.js';
+import Gambar from '../../components/Img.js';
 import Kelas from './home1.css'
 
-const home4= () => {
+const Home4= () => {
     return(
       <div className='Testimoni'>
         <h1 className={Kelas.Judul}>
@@ -23,4 +23,4 @@ const home4= () => {
     )
 };
 
-export default home4;
+export default Home4;

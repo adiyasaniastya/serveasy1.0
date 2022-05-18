@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import {Route, Switch} from 'react-router-dom';
 import Homepage from './pages/homepages/Homepage';
-import ContactUs from './pages/contactUs/contactUs';
+import ContactUs from './pages/contactUs/ContactUs';
 import MainNavigation from './Layouts/MainNavigation';
 
 const App= () => {

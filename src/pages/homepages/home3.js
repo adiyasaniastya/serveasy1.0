@@ -1,7 +1,7 @@
-import Gambar from '../../components/img.js';
+import Gambar from '../../components/Img.js';
 import Kelas from './home1.css'
 
-const home3 = () => {
+const Home3 = () => {
     return(
       <div className='HowItWorks'>
       <h3 className={Kelas.How}>Bagaimana aplikasi ini berjalan</h3>
@@ -35,4 +35,4 @@ const home3 = () => {
     )
 };
 
-export default home3;
+export default Home3;
