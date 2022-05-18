@@ -4,7 +4,7 @@ import Kelas from './Footer.css'
 const Footer= () => {
     return(
         <div className='Footer'>
-            <Gambar gbr={logo_footer} className={Kelas.logo_footer}/>
+            <Gambar gbr={'logo_footer'} className={Kelas.logo_footer}/>
             <div className={Kelas.FooterLink}>
                 <h3 className={Kelas.JudulTautan}>Tautan Cepat</h3>
                 <h4 className={Kelas.buatAkun}>Buat Akun</h4>
@@ -41,10 +41,10 @@ const Footer= () => {
             <div className={Kelas.Bawah}>
                 <h4 className={Kelas.Copyright}>Copyright © 2022. All rights reserved.</h4>
                 <div className={Kelas.SosialMedia}>
-                    <Gambar gbr={Youtube} className={Kelas.Youtube}/>
-                    <Gambar gbr={Instagram} className={Kelas.Instagram}/>
-                    <Gambar gbr={Facebook} className={Kelas.Facebook}/>
-                    <Gambar gbr={Twitter} className={Kelas.Twitter}/>
+                    <Gambar gbr={'Youtube'} className={Kelas.Youtube}/>
+                    <Gambar gbr={'Instagram'} className={Kelas.Instagram}/>
+                    <Gambar gbr={'Facebook'} className={Kelas.Facebook}/>
+                    <Gambar gbr={'Twitter'} className={Kelas.Twitter}/>
                 </div>
             </div>
         </div>

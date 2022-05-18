@@ -10,7 +10,7 @@ const home5 = () => {
           menggunakan layanan penghubung jasa service {'\n'}
           laptop dan komputer.
         </h3>
-        <Gambar gbr={googleplay} className={Kelas.googleplay}/>
+        <Gambar gbr={'googleplay'} className={Kelas.googleplay}/>
         <h2 className={Kelas.Soon}> Segera Hadir</h2>
         <h3 className={Kelas.Avail}> Tersedia dalam perangkat Android</h3>
       </div>

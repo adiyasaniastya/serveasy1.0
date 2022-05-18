@@ -18,8 +18,8 @@ const Home1 = () => {
                 berkonsultasi langsung secara online dengan ahli perbaikan komputer 
             </h4>
 
-            <Gambar gbr={googleplay} className={Kelas.googleplay}  />
-            <Gambar gbr={jumbo_hp} className={Kelas.jumbo_hp}/>
+            <Gambar gbr={'googleplay'} className={Kelas.googleplay}  />
+            <Gambar gbr={'jumbo_hp'} className={Kelas.jumbo_hp}/>
         </div>
     );
 }

@@ -4,16 +4,16 @@ import Home3 from './home3';
 import Home4 from './home4';
 import Home5 from './home5';
 
-import Footer from '../Layouts/Footer.js';
+import Footer from '../../Layouts/Footer.js';
 
 const Homepage = () => {
   return(
     <>
-      <Home1/>
+      {/* <Home1/>
       <Home2/>
       <Home3/>
       <Home4/>
-      <Home5/>
+      <Home5/> */}
       <Footer/>
     </> 
     

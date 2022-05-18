@@ -7,7 +7,7 @@ const home4= () => {
         <h1 className={Kelas.Judul}>
           Apa yang calon Pelanggan tanggapi
         </h1>
-        <Gambar gbr={testimoni} className={Kelas.testimoni}/>
+        <Gambar gbr={'testimoni'} className={Kelas.testimoni}/>
       <h3 className={Kelas.Par}>
         Aplikasi ini sangat berguna untuk mempermudah {'\n'}
         dalam proses menemukan jasa service terbaik dan {'\n'}

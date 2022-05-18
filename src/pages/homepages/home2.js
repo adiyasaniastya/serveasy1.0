@@ -10,7 +10,7 @@ const home2 = () => {
           saat ini.
         </h2>
       <div className={Kelas.ModalKonsul}>
-        <Gambar gbr={org_konsul} className={Kelas.org_konsul}/>
+        <Gambar gbr={'org_konsul'} className={Kelas.org_konsul}/>
         <h3 className={Kelas.Konsul}> Konsultasi</h3>
         <h4 className={Kelas.TawarKonsul}> Menawarkan fitur konsultasi {'\n'}
           terlebih dahulu sebelum {'\n'}
@@ -20,7 +20,7 @@ const home2 = () => {
         <button>Berikutnya </button>
       </div>
       <div className={Kelas.ModalJasa}>
-        <Gambar gbr={org_servis} className={Kelas.org_servis}/>
+        <Gambar gbr={'org_servis'} className={Kelas.org_servis}/>
         <h4 className={Kelas.Soon}>Segera hadir</h4>
         <h3 className={Kelas.Jasa}>Jasa Service</h3>
         <h3 className={Kelas.TawarJasa}>Menawarkan jasa service laptop {'\n'}
@@ -30,7 +30,7 @@ const home2 = () => {
         <button>Berikutnya </button>
       </div>
       <div className={Kelas.ModalJemput}>
-        <Gambar gbr={org_jemput} className={Kelas.org_jemput}/>
+        <Gambar gbr={'org_jemput'} className={Kelas.org_jemput}/>
         <h3 className={Kelas.Jemput}>Layanan antar jemput</h3>
         <h4 className={Kelas.TawarJemput}>
           Menyediakan fitur layanan antar {'\n'}
