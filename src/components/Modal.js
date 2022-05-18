@@ -1,8 +1,8 @@
-function Modal(){
+function Modal(props){
     return (
       <div className="modal">
-          <p>UHUY!</p>
-          <p>sadas</p>
+          <p>{props.text}</p>
+          <p>sadas uhuy test</p>
       </div>  
     );
 }
