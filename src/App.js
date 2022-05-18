@@ -1,15 +1,22 @@
 import React from 'react';
-import './App.css'
-import Todo from './components/Todo'
+import './App.css';
+import {Route, Switch} from 'react-router-dom';
+import Homepage from './pages/homepages/Homepage';
+import ContactUs from './pages/contactUs/contactUs';
+import MainNavigation from './Layouts/MainNavigation';
 
 const App= () => {
 	return (
 		<div>
-			<h1>
-				To Do list
-			</h1>
-			<Todo />
-			<Todo />
+			<MainNavigation/>
+			<Switch>
+				<Route path='/' exact={true}>
+					<Homepage/>
+				</Route>
+				<Route path='/contact-us' exact={true}>
+					<ContactUs/>
+				</Route>
+			</Switch>
 		</div>
 	)
 };

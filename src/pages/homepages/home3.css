@@ -1,0 +1,190 @@
+.how{
+    position: absolute;
+    width: 427px;
+    height: 39px;
+    left: 490px;
+    top: 2338px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 39px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #082F49;
+}
+
+.GrupAkun{
+    position: absolute;
+    width: 280px;
+    height: 197px;
+    left: 217px;
+    top: 2453px;
+}
+
+.newAcc{
+    position: absolute;
+    width: 187px;
+    height: 27px;
+    left: 264px;
+    top: 2543px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+    
+    
+    /* Text color */
+    
+    color: #0F001A;
+}
+
+.AccPar{
+    position: absolute;
+    width: 280px;
+    height: 78px;
+    left: 217px;
+    top: 2572px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    
+    text-align: center;
+    
+    /* Text color */
+    
+    color: #0F001A;
+}
+
+.GrupVerif{
+    position: absolute;
+    width: 257px;
+    height: 197px;
+    left: 590px;
+    top: 2453px;
+}
+
+.Verif{
+    position: absolute;
+    width: 178px;
+    height: 27px;
+    left: 629px;
+    top: 2543px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+    
+    
+    /* Text color */
+    
+    color: #0F001A;
+}
+
+.VerifPar{
+    position: absolute;
+    width: 257px;
+    height: 78px;
+    left: 590px;
+    top: 2572px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    
+    text-align: center;
+    
+    /* Text color */
+    
+    color: #0F001A;
+}
+
+.GrupEnjoy{
+    position: absolute;
+    width: 257px;
+    height: 171px;
+    left: 938px;
+    top: 2453px;
+}
+
+.EnjoyJud{
+    position: absolute;
+    width: 180px;
+    height: 27px;
+    left: 977px;
+    top: 2543px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+    
+    
+    /* Text color */
+    
+    color: #0F001A;
+}
+
+.EnjoyPar{
+    position: absolute;
+    width: 257px;
+    height: 52px;
+    left: 938px;
+    top: 2572px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    
+    text-align: center;
+    
+    /* Text color */
+    
+    color: #0F001A;
+}
+
+/* gambar */
+.works_account{
+    position: absolute;
+    left: 2.08%;
+    right: 2.08%;
+    top: 2.08%;
+    bottom: 2.08%;
+}
+
+.works_secure{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 688px;
+    top: 2453px;
+}
+
+.works_smile{
+    position: absolute;
+    left: 12.5%;
+    right: 12.5%;
+    top: 12.5%;
+    bottom: 12.5%;
+}

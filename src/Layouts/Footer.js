@@ -1,62 +1,51 @@
+import Gambar from '../components/img.js';
+import Kelas from './Footer.css'
+
 const Footer= () => {
     return(
         <div className='Footer'>
-            <div className='LogoBawah'>
-            <img className="LogoFooter"
-                src={gambar.logo_footer}
-                alt="logo footer"
-            />
-            </div>
-            <div className='FooterLink'>
-                <h3>Tautan Cepat</h3>
-                <h4>Buat Akun</h4>
-                <h4>Tentang Kami</h4>
+            <Gambar gbr={logo_footer} className={Kelas.logo_footer}/>
+            <div className={Kelas.FooterLink}>
+                <h3 className={Kelas.JudulTautan}>Tautan Cepat</h3>
+                <h4 className={Kelas.buatAkun}>Buat Akun</h4>
+                <h4 className={Kelas.tentangKami}>Tentang Kami</h4>
             </div>
             <div className='FooterLainnya'>
-                <h3>Lainnya</h3>
-                <h4>Pengguna FAQs</h4>
-                <h4>Kontak Kami</h4>
-                <h4>Legal</h4>
-                <h4>Kebijakan Privasi</h4>
-                <h4>Syarat dan Ketentuan</h4>
+                <h3 className={Kelas.JudulLainnya}>Lainnya</h3>
+                <h4 className={Kelas.FAQ}>Pengguna FAQs</h4>
+                <h4 className={Kelas.contactUs}>Kontak Kami</h4>
+                <h4 className={Kelas.Legal}>Legal</h4>
+                <h4 className={Kelas.Policy}>Kebijakan Privasi</h4>
+                <h4 className={Kelas.TnC}>Syarat dan Ketentuan</h4>
             </div>
             <div className='FooterLayanan'>
-                <h3>Layanan</h3>
-                <h4>Servis</h4>
-                <h4>Konsultasi</h4>
-                <h4>Layanan Antar 
-                Jemput
+                <h3 className={Kelas.JudulLayanan}>Layanan</h3>
+                <h4 className={Kelas.Servis}>Servis</h4>
+                <h4 className={Kelas.Consult}>Konsultasi</h4>
+                <h4 className={Kelas.Jemput}>
+                    Layanan Antar {'\n'}
+                    Jemput
                 </h4>
             </div>
-            <div className='FooterSubscribe'>
-                <h3>
+            <div className={Kelas.FootSubs}>
+                <h3 className={Kelas.SubsPar}>
                 Berlangganan buletin kami dan jadilah
                 yang pertama tahu tentang
                 pembaruan kami
                 </h3>
-                <fieldset>Alamat Kami</fieldset>
-                <button>Langganan</button>
+                <div className={Kelas.SubsArea}>
+                    <fieldset className={Kelas.SubsField}>Alamat Email</fieldset>
+                    <button className={Kelas.SubsButton}>Langganan</button>
+                </div>
             </div>
-            <div className='Copyright'>
-
-            </div>
-            <div className='SosialMedia'>
-                <img className="LogoYT"
-                src={gambar.Youtube}
-                alt="logo Youtube"
-                />
-                <img className="LogoIG"
-                src={gambar.Instagram}
-                alt="logo Instagram"
-                />
-                <img className="LogoFB"
-                src={gambar.Facebook}
-                alt="logo Facebook"
-                />
-                <img className="LogoTW"
-                src={gambar.Twitter}
-                alt="logo Twitter"
-                />
+            <div className={Kelas.Bawah}>
+                <h4 className={Kelas.Copyright}>Copyright © 2022. All rights reserved.</h4>
+                <div className={Kelas.SosialMedia}>
+                    <Gambar gbr={Youtube} className={Kelas.Youtube}/>
+                    <Gambar gbr={Instagram} className={Kelas.Instagram}/>
+                    <Gambar gbr={Facebook} className={Kelas.Facebook}/>
+                    <Gambar gbr={Twitter} className={Kelas.Twitter}/>
+                </div>
             </div>
         </div>
         )

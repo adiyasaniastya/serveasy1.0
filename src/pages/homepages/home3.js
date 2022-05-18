@@ -1,41 +1,33 @@
-import gambar from '.components/img.js'
+import Gambar from '../../components/img.js';
+import Kelas from './home1.css'
 
 const home3 = () => {
     return(
-        <div className='HowItWorks'>
-      <h3>Bagaimana aplikasi ini berjalan</h3>
-      <div className='BuatAkun'>
-        <img className="works_account"
-          src={gambar.works_account}
-          alt="info bikin akun"
-        />
-        <h3>Membuat akun baru</h3>
-        <h4>
-          Untuk pelanggan baru yang ingin
-          mencoba menggunakan layanan
+      <div className='HowItWorks'>
+      <h3 className={Kelas.How}>Bagaimana aplikasi ini berjalan</h3>
+      <div className={Kelas.GrupAkun}>
+        <Gambar gbr={works_account} className={Kelas.works_account}/>
+        <h3 className={Kelas.newAcc}>Membuat akun baru</h3>
+        <h4 className={Kelas.AccPar}>
+          Untuk pelanggan baru yang ingin {'\n'}
+          mencoba menggunakan layanan {'\n'}
           penyedia jasa service
         </h4>
       </div>
-      <div className='DptVerifikasi'>
-        <img className="works_secure"
-          src={gambar.works_secure}
-          alt="info verif akun"
-        />
-        <h3>Dapatkan Verifikasi</h3>
-        <h4>
-          Setelah membuat akun baru
-          pastikan sudah mendapatkan
+      <div className='GrupVerif'>
+        <Gambar gbr={works_secure} className={Kelas.works_secure}/>
+        <h3 className={Kelas.Verif}>Dapatkan Verifikasi</h3>
+        <h4 className={Kelas.VerifPar}>
+          Setelah membuat akun baru {'\n'}
+          pastikan sudah mendapatkan {'\n'}
           verifikasi email
         </h4>
       </div>
-      <div className='Enjoy'>
-        <img className="works_smile"
-          src={gambar.works_smile}
-          alt="info nikmati aplikasi"
-        />
-        <h3>Nikmati Aplikasinya</h3>
-        <h4>
-          Jika sudah, selamat menikmati
+      <div className='GrupEnjoy'>
+        <Gambar gbr={works_smile} className={Kelas.works_smile}/>
+        <h3 className={Kelas.EnjoyJud} >Nikmati Aplikasinya</h3>
+        <h4 className={Kelas.EnjoyPar}>
+          Jika sudah, selamat menikmati {'\n'}
           layanan kami
         </h4>
       </div>

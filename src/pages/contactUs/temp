@@ -2,7 +2,7 @@ import { useState } from 'react';
 import Modal from '.components/Modal';
 import Backdrop from '.components/Backdrop';
 
-function contactUs(props){
+function contactUsPage(props){
     const [ modalIsOpen, setModalIsOpen ] =useState(false);
     function buttonHandler(){
         setModalIsOpen(true);
@@ -28,4 +28,4 @@ function contactUs(props){
 
 }
 
-export default contactUs;
+export default contactUsPage;

@@ -1,0 +1,90 @@
+.judul{
+    position: absolute;
+    width: 525px;
+    height: 38px;
+    left: 750px;
+    top: 3701px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 38px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    /* Text color */
+    
+    color: #0F001A;
+}
+
+.Par{
+    position: absolute;
+    width: 444px;
+    height: 72px;
+    left: 790px;
+    top: 3742.58px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    
+    text-align: center;
+    
+    /* Text color */
+    
+    color: #0F001A;
+    
+    opacity: 0.5;
+}
+
+.googleplay{
+    position: absolute;
+    left: 2.11%;
+    right: 2.11%;
+    top: 6.52%;
+    bottom: 6.52%;
+    
+}
+
+.Soon{
+    position: absolute;
+    width: 441px;
+    height: 63px;
+    left: 794px;
+    top: 3928px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 70px;
+    /* or 219% */
+    
+    letter-spacing: 0.02em;
+    
+    color: #082F49;
+}
+
+.Avail{
+    position: absolute;
+    width: 441px;
+    height: 63px;
+    left: 794px;
+    top: 3960px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 70px;
+    /* or 350% */
+    
+    letter-spacing: 0.02em;
+    
+    color: #082F49;
+}
