@@ -1,5 +1,5 @@
-import Gambar from '../../Components/Img/Img.js';
-import Kelas from './Footer.css'
+// import Gambar from '../../Components/Img/Img.js';
+import Kelas from './Footer.module.css'
 
 const Footer= () => {
     return(

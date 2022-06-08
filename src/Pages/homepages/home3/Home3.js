@@ -1,5 +1,5 @@
-import Gambar from '../../../Components/Img/Img.js';
-import Kelas from './home3.css';
+// import Gambar from '../../../Components/Img/Img.js';
+import Kelas from './Home3.module.css';
 
 const Home3 = () => {
     return(
