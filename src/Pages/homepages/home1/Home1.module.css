@@ -1,14 +1,26 @@
+.main {
+  position: relative;
+  /* position: static; */
+  width: 1440px;
+  height: 768px;
+  left: 0px;
+  top: 0px;
+}
+
 .Emblem {
-  position: absolute;
+  position: static;
   width: 101px;
+  float: left;
   height: 110px;
   left: 125px;
   top: 78px;
+  
 }
 
 .tagline {
-  position: absolute;
+  position: relative;
   width: 461px;
+  
   height: 126px;
   left: 244px;
   top: 89px;
@@ -40,31 +52,6 @@
   align-items: center;
 
   color: #000000;
-}
-.main {
-  position: absolute;
-  /* position: static; */
-  width: 1440px;
-  height: 768px;
-  left: 0px;
-  top: 0px;
-}
-
-.Judul {
-  color: #082f49;
-  position: absolute;
-  width: 461px;
-  height: 126px;
-  left: 244px;
-  top: 89px;
-
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 60px;
-  display: flex;
-  align-items: center;
 }
 
 .Saat {
@@ -111,7 +98,7 @@
 }
 
 .Jumbo_hp {
-  position: absolute;
+  position: static;
   width: 1084px;
   height: 842px;
   left: 511px;

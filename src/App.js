@@ -12,8 +12,6 @@ function App() {
       <Fragment>
         <Homepage/>
       </Fragment>
-        
-        
     );
 }
 
