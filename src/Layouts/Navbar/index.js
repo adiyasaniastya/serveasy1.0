@@ -1,28 +1,32 @@
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
+// import Kelas from "./Navbar2.module.css";
+import { ReactComponent as Emblem } from "../../Assets/img/emblem.svg";
+import {
+  Navbar,
+  Container,
+  Nav
+} from 'react-bootstrap';
 
-function MainNavigation(){
-    return <header>
-        <div>Uhuy</div>
-        <nav>
-            <ul>
-                <li>
-                    <Link to='/'>Beranda</Link>
-                </li>
-                <li>
-                    <Link to='/about-us'>Tentang Kami</Link>
-                </li>
-                <li>
-                    <Link to='/contact-us'>Hubungi Kami</Link>
-                </li>
-                <li>
-                    <Link to='/login'>Masuk</Link>
-                </li> 
-                <li>
-                    <Link to='/register'>Daftar</Link>
-                </li>
-            </ul>
-        </nav>
-    </header>
+import 'bootstrap/dist/css/bootstrap.min.css';
+function MainNavigation() {
+  return (
+    <>
+    <Navbar bg="light" expand="lg">
+      
+      <Container>
+        <Emblem href="#home"/>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav ">
+          <Nav className="me-auto">
+            <Nav.Link href="#home">Beranda</Nav.Link>
+            <Nav.Link href="#link">Profil ServEasy</Nav.Link>
+            <Nav.Link href="#link">Kontak Kami</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+    </>
+  );
 }
 
 export default MainNavigation;

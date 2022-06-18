@@ -2,7 +2,7 @@ import Kelas from "./Home2.module.css";
 import { ReactComponent as Org_konsul } from "../../../Assets/img/org_konsul.svg";
 import { ReactComponent as Org_servis } from "../../../Assets/img/org_servis.svg";
 import { ReactComponent as Org_jemput } from "../../../Assets/img/org_jemput.svg";
-
+import { Button } from 'react-bootstrap';
 const Home2 = () => {
   return (
     <div>
@@ -27,7 +27,7 @@ const Home2 = () => {
           mengajukan jasa service pilihan {"\n"}
           anda.
         </h4>
-        <button>Berikutnya </button>
+        <Button className={Kelas.Tombol}>Berikutnyaa </Button>
       </div>
       <div className={Kelas.ModalJasa}>
         <div className={Kelas.org_servis}>
