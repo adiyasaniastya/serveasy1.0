@@ -1,13 +1,9 @@
-// import Gambar from '../../../Components/Img/Img.js';
 import Kelas from "./Home4.module.css";
-
-// import jumbo_hp from "../../../Assets/img/jumbo_hp.jpg";
-// <img src={jumbo_hp} className={Kelas.jumbo_hp} />
 import { Carousel } from "react-bootstrap";
-import {useState} from 'react';
-import { ReactComponent as Testimoni } from "../../../Assets/img/testimoni.svg";
-// <Emblem className={Kelas.Emblem} />
-function Home4(){
+import { useState } from "react";
+
+import testimoni from "../../../Assets/img/testimoni.jpg";
+function Home4() {
   const [index, setIndex] = useState(0);
 
   const handleSelect = (selectedIndex, e) => {
@@ -15,10 +11,9 @@ function Home4(){
   };
   return (
     <>
-      <div className="Testimoni">
+      <div className="Testimonie">
         <div className={Kelas.Judul}>Apa yang calon Pelanggan tanggapi</div>
-        {/* <Testimoni className={Kelas.testimoni} /> */}
-        {/* <Gambar gbr={'testimoni'} className={Kelas.testimoni}/> */}
+        <img src={testimoni} className={Kelas.testimoni} />
         <div className={Kelas.Par}>
           Aplikasi ini sangat berguna untuk mempermudah {"\n"}
           dalam proses menemukan jasa service terbaik dan {"\n"}
@@ -33,7 +28,7 @@ function Home4(){
       </div>
       <Carousel activeIndex={index} onSelect={handleSelect}>
         <Carousel.Item interval={1000}>
-          <Testimoni className={Kelas.testimoni} alt="First slide" />
+          {/* <Testimoni className={Kelas.testimoni} alt="First slide" /> */}
           <Carousel.Caption>
             <h3 className={Kelas.Nama}>Christin</h3>
             <p className={Kelas.Par}>
@@ -60,6 +55,6 @@ function Home4(){
       </Carousel>
     </>
   );
-};
+}
 
 export default Home4;

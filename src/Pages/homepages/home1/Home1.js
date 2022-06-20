@@ -1,16 +1,16 @@
 import Kelas from "./Home1.module.css";
-import { ReactComponent as Emblem } from "../../../Assets/img/emblem.svg";
-import { ReactComponent as Googleplay } from "../../../Assets/img/googleplay.svg";
-// import { ReactComponent as Jumbo_hp } from "../../../Assets/img/jumbo_hp.svg";
 import jumbo_hp from "../../../Assets/img/jumbo_hp.jpg";
+import emblem from "../../../Assets/img/emblem.jpg";
+import googleplay from "../../../Assets/img/googleplay.jpg";
 import { Container, Row, Col, Carousel } from "react-bootstrap";
+
 const Home1 = () => {
   return (
     <>
       <Container fluid className={Kelas.main}>
         <Row>
           <Col>
-            <Emblem href="#home" />
+            <img src={emblem} className={Kelas.emblem} />
           </Col>
           <Col className={Kelas.tagline} md lg="4">
             ServEasy
@@ -22,18 +22,20 @@ const Home1 = () => {
           <Col className={Kelas.Saat}>
             Saat ini Hadir Aplikasi Layanan Jasa Service
           </Col>
-          <Col className={Kelas.Paragraph} >
-            ServEasy adalah penyedia start-up layanan laptop dan komputer yang {"\n"}
-            pekerjaannya dapat dilakukan di mana pelanggan berada dan dapat{"\n"}
+          <Col className={Kelas.Paragraph}>
+            ServEasy adalah penyedia start-up layanan laptop dan komputer yang
+            {"\n"}
+            pekerjaannya dapat dilakukan di mana pelanggan berada dan dapat
+            {"\n"}
             berkonsultasi langsung secara online dengan ahli perbaikan komputer
           </Col>
-          <Col >
+          <Col>
             <img src={jumbo_hp} className={Kelas.jumbo_hp} />
           </Col>
         </Row>
         <Row>
           <Col>
-            <Googleplay className={Kelas.Googleplay} />
+            <img src={googleplay} className={Kelas.googleplay} />
           </Col>
         </Row>
       </Container>

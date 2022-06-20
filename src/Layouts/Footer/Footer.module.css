@@ -1,0 +1,71 @@
+.Footer {
+  background-color: #082f49;
+  background-size: cover;
+  color: #ffffff;
+}
+
+.Copyright {
+  border-top: #ffffff;
+  border-radius: 116px;
+}
+
+.LogoFooter {
+  margin: 48px;
+  margin-top: 10px;
+  margin-right: 40px;
+  margin-bottom: 32px;
+  margin-left: 5px;
+}
+
+.Atas {
+  padding: 100px;
+  padding-top: 50px;
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-bottom: 50px;
+}
+
+.Youtube {
+  padding: 100px;
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+}
+
+.Instagram {
+  padding: 100px;
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+}
+
+.Facebook {
+  padding: 100px;
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+}
+
+.Twitter {
+  padding: 100px;
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+}
+
+.tulisanhak {
+  padding: 100px;
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+}
+
+.Footer {
+  font-family: "Poppins";
+  font-style: normal;
+}
