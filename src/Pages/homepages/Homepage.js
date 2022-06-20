@@ -9,8 +9,8 @@ import { Fragment } from 'react';
 const Homepage = () => {
   return(
     <>
-      <Home1/>
-      {/* <Home2/> */}
+      {/* <Home1/> */}
+      <Home2/>
       {/* <Home3/> */}
       {/* <Home4/> */}
       {/* <Home5/>  */}

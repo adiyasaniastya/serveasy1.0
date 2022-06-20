@@ -1,30 +1,29 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 // import Kelas from "./Navbar2.module.css";
 import { ReactComponent as Emblem } from "../../Assets/img/emblem.svg";
-import {
-  Navbar,
-  Container,
-  Nav
-} from 'react-bootstrap';
+import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap";
 
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 function MainNavigation() {
   return (
     <>
-    <Navbar bg="light" expand="lg">
-      
-      <Container>
-        <Emblem href="#home"/>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav ">
-          <Nav className="me-auto">
-            <Nav.Link href="#home">Beranda</Nav.Link>
-            <Nav.Link href="#link">Profil ServEasy</Nav.Link>
-            <Nav.Link href="#link">Kontak Kami</Nav.Link>
-          </Nav>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
+      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+        <Container>
+          
+          <Navbar.Collapse id="responsive-navbar-nav">
+            <Nav className="me-auto">
+              
+            </Nav>
+            <Nav>
+              <Nav.Link href="#home">Beranda</Nav.Link>
+              <Nav.Link eventKey={2} href="#memes">
+                Profil ServEasy
+              </Nav.Link>
+              <Nav.Link href="#contactus">Kontak Kami</Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
     </>
   );
 }

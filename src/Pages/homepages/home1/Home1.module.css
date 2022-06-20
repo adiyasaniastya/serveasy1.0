@@ -1,5 +1,5 @@
 .main {
-  position: relative;
+  /* position: relative; */
   /* position: static; */
   width: 1440px;
   height: 768px;
@@ -7,8 +7,12 @@
   top: 0px;
 }
 
+/* .jumbotron {
+  background-image: url("https://freebigpictures.com/wp-content/uploads/shady-forest.jpg")!important;
+} */
+
 .Emblem {
-  position: static;
+  /* position: static; */
   width: 101px;
   float: left;
   height: 110px;
@@ -18,7 +22,7 @@
 }
 
 .tagline {
-  position: relative;
+  /* position: relative; */
   width: 461px;
   
   height: 126px;
@@ -37,7 +41,7 @@
 }
 
 .kal1 {
-  position: absolute;
+  /* position: realtive; */
   width: 461px;
   height: 126px;
   left: 244px;
@@ -55,7 +59,7 @@
 }
 
 .Saat {
-  position: absolute;
+  /* position: absolute; */
   width: 461px;
   height: 140px;
   left: 136px;
@@ -74,7 +78,7 @@
 }
 
 .Paragraph {
-  position: absolute;
+  /* position: absolute; */
   width: 627px;
   height: 141px;
   left: 138px;
@@ -90,7 +94,7 @@
   color: #000000;
 }
 .GooglePlay {
-  position: absolute;
+  /* position: absolute; */
   width: 180px;
   height: 60px;
   left: 136px;
