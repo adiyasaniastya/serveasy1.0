@@ -1,19 +1,26 @@
 import Kelas from "./Home5.module.css";
 import googleplay from "../../../Assets/img/googleplay.png";
+import { Container, Col, Row } from "react-bootstrap";
 
 const Home5 = () => {
   return (
-    <div className="ComingSoon">
-      <div className={Kelas.Judul}>Unduh Aplikasinya dan nikmati fiturnya!</div>
-      <div className={Kelas.Par}>
-        Dapatkan pengalaman yang menarik dengan {"\n"}
-        menggunakan layanan penghubung jasa service {"\n"}
-        laptop dan komputer.
-      </div>
-      <img src={googleplay} className={Kelas.googleplay} />
-      <div className={Kelas.Soon}> Segera Hadir</div>
-      <div className={Kelas.Avail}> Tersedia dalam perangkat Android</div>
-    </div>
+    <>
+      <Container className={Kelas.ComingSoon}>
+        <Row className={Kelas.Judul}>
+          Unduh Aplikasinya dan nikmati fiturnya!
+        </Row>
+        <Row className={Kelas.Par}>
+          Dapatkan pengalaman yang menarik dengan {"\n"}
+          menggunakan layanan penghubung jasa service {"\n"}
+          laptop dan komputer.
+        </Row>
+        <Row>
+          <img src={googleplay} className={Kelas.googleplay} />
+        </Row>
+        <Row className={Kelas.Soon}>Segera Hadir</Row>
+        <Row className={Kelas.Avail}>Tersedia dalam perangkat Android</Row>
+      </Container>
+    </>
   );
 };
 

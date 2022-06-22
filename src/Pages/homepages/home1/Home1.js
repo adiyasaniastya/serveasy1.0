@@ -9,24 +9,26 @@ const Home1 = () => {
     <>
       <Container fluid className={Kelas.main}>
         <Row>
-          <Col className={Kelas.Saat}>
-            Saat ini Hadir Aplikasi Layanan Jasa Service
-          </Col>
-          <Col className={Kelas.Paragraph}>
-            ServEasy adalah penyedia start-up layanan laptop dan komputer yang
-            {"\n"}
-            pekerjaannya dapat dilakukan di mana pelanggan berada dan dapat
-            {"\n"}
-            berkonsultasi langsung secara online dengan ahli perbaikan komputer
+          <Col className={Kelas.Tulisan}>
+            <div className={Kelas.Saat}>
+              Saat ini Hadir Aplikasi Layanan Jasa Service
+            </div>
+            <div className={Kelas.Paragraph}>
+              ServEasy adalah penyedia start-up layanan laptop dan komputer yang
+              {"\n"}
+              pekerjaannya dapat dilakukan di mana pelanggan berada dan dapat
+              {"\n"}
+              berkonsultasi langsung secara online dengan ahli perbaikan
+              komputer
+            </div>
+            <img src={googleplay} className={Kelas.googleplay} />
           </Col>
           <Col>
             <img src={jumbo_hp} className={Kelas.jumbo_hp} />
           </Col>
         </Row>
         <Row>
-          <Col>
-            <img src={googleplay} className={Kelas.googleplay} />
-          </Col>
+          <Col></Col>
         </Row>
       </Container>
     </>

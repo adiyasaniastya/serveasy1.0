@@ -1,15 +1,161 @@
-.Apa{
-    padding:100px;
-    padding-top: 16px;
-    padding-right: 20px;
-    padding-left: 24px;
-    padding-bottom: 28px;
+.AllHome2 {
+  padding-top: 20px;
+  padding-bottom: 150px;
+}
 
-    margin: 48px;
-    margin-top: 48px;
-    margin-right: 24px;
-    margin-bottom: 32px;
-    margin-left: 60px;
-    
-    /* padding: 16px 20px 24px 28 px; */
+.Apa {
+  /* padding: 100px; */
+  padding-top: 16px;
+  padding-right: 50px;
+  /* padding-left: 50px; */
+  padding-bottom: 28px;
+
+  /* margin: 48px; */
+  /* margin-top: 48px;
+  margin-right: 24px;
+  margin-bottom: 32px;
+  margin-left: 60px; */
+
+  /* max-width: 588px; */
+  /* max-height: 228px; */
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 57px;
+  color: #082f49;
+  letter-spacing: 0.05em;
+}
+
+.Kol1 {
+  display: block;
+  margin-right: 160px;
+  /* margin-left: 100px; */
+}
+
+.Kol2 {
+  display: inline-block;
+  /* margin-left: 50px; */
+}
+
+.CardJemput {
+  margin-top: 100px;
+  /* margin-bottom: 100px; */
+  padding-top: 20px;
+  padding-left: 23px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  max-width: 390px;
+}
+
+.CardServis {
+  margin-top: 100px;
+  margin-left: 200px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  max-width: 390px;
+}
+
+.CardKonsul {
+  /* margin-top: 20px; */
+  margin-bottom: 100px;
+  /* padding-top: 20px; */
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  max-width: 390px;
+}
+
+.IsiSer {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+}
+
+.JudSer {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+
+  letter-spacing: 0.02em;
+
+  /* Text color */
+
+  color: #0f001a;
+}
+
+.ParSer {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+
+  /* Text color */
+
+  color: #0f001a;
+
+  /* opacity: 0.6; */
+}
+
+.JudKon {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+
+  letter-spacing: 0.02em;
+
+  /* Text color */
+
+  color: #0f001a;
+}
+
+.ParKon {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+
+  /* Text color */
+
+  color: #0f001a;
+
+  opacity: 0.6;
+}
+
+.JudJem {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+
+  letter-spacing: 0.02em;
+
+  /* Text color */
+
+  color: #0f001a;
+}
+
+.ParJem {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+
+  /* Text color */
+
+  color: #0f001a;
+
+  opacity: 0.6;
 }

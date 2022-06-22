@@ -4,6 +4,10 @@
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+
+  color: #0f001a;
 }
 
 .Tambahan {
@@ -15,12 +19,13 @@
 
   margin-top: 4px;
   margin-right: 24px;
-  margin-bottom: 32px;
-  margin-left: 60px;
+  /* margin-bottom: 32px; */
+  margin-left: 270px;
 }
 
 .emblem {
   display: inline;
+  padding-bottom: 100px;
 }
 
 .TulisanLogo {
@@ -35,10 +40,18 @@
 .tagline {
   /* padding-top: 20px;
   padding-bottom: 10px; */
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  color: #082f49;
 }
 
 .kal1 {
   /* padding-top: 40px; */
   border-right: 50px;
   border-bottom: 40px;
+  max-width: 461px;
+  font-weight: 275;
+  font-size: 24px;
+  line-height: 36px;
 }

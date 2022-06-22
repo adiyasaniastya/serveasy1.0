@@ -1,10 +1,9 @@
 .main {
-  /* position: absolute;
-  width: 1440px;
-  height: 609px;
-  left: 1440px;
-  top: 609px; */
-
+  /* position: absolute; */
+  max-width: fit-content;
+  max-height: fit-content;
+  font-family: "Poppins";
+  font-style: normal;
   /* background: linear-gradient(
       359.45deg,
       #082f49 -24.57%,
@@ -15,56 +14,45 @@
   /* transform: rotate(-180deg); */
 }
 
-/* .jumbotron {
-  background-image: url("https://freebigpictures.com/wp-content/uploads/shady-forest.jpg")!important;
-} */
+.Tulisan {
+  justify-content: left;
+  display: block;
+  /* padding-left: 0px; */
+  padding-right: 20px;
+  max-height: 600px;
+}
 .Saat {
-  /* position: absolute; */
-  width: 461px;
-  height: 140px;
-  left: 136px;
-  top: 270px;
-
-  font-family: "Poppins";
-  font-style: normal;
+  display: -moz-stack;
   font-weight: 600;
   font-size: 40px;
   line-height: 70px;
   /* or 175% */
 
   letter-spacing: 0.02em;
-
-  color: #082f49;
+  max-width: 461px;
 }
 
 .Paragraph {
-  /* position: absolute; */
-  width: 627px;
-  height: 141px;
-  left: 138px;
-  top: 421px;
-
-  font-family: "Poppins";
-  font-style: normal;
+  display: -moz-stack;
   font-weight: 400;
   font-size: 16px;
   line-height: 36px;
-  /* or 225% */
-
-  color: #000000;
-}
-.GooglePlay {
-  /* position: absolute; */
-  width: 180px;
-  height: 60px;
-  left: 136px;
-  top: 573px;
+  max-width: 627px;
 }
 
-.Jumbo_hp {
-  position: static;
-  width: 1084px;
-  height: 842px;
-  left: 511px;
-  top: -11px;
+.jumbo_hp {
+  display: inline-block;
+  /* padding-top: 50px;
+  padding-right: 100px; */
+  max-width: 800px;
+  max-height: 600px;
+}
+
+.googleplay {
+  border: 100px;
+  /* max-width: 180px; */
+  /* max-height: 60px; */
+  padding-top: 50px;
+  /* padding-left: 10px; */
+  padding-bottom: 10px;
 }
