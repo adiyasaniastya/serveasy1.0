@@ -1,118 +1,95 @@
-.how{
-  
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 39px;
-    /* identical to box height */
-    
-    text-align: center;
-    
-    color: #082F49;
+.AllHome3 {
+  background: #e5e5e5;
+  background-size: cover;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.Home3 {
+  font-family: "Poppins";
+  font-style: normal;
+  position: relative;
+  justify-content: center;
+  text-align: center;
 }
 
+.How {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 39px;
+  text-align: center;
 
-.newAcc{
-    
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 27px;
-    /* identical to box height */
-    
-    
-    /* Text color */
-    
-    color: #0F001A;
+  /* padding-left: 200px; */
+  /* padding-right: 700px; */
+  /* justify-content: center; */
+  /* align-items: center; */
 }
 
-.AccPar{
-    
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    /* or 162% */
-    
-    text-align: center;
-    
-    /* Text color */
-    
-    color: #0F001A;
+.GrupAcc {
+  display: inline;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 30px;
+  padding-bottom: 40px;
 }
 
-
-
-.Verif{
-    
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 27px;
-    /* identical to box height */
-    
-    
-    /* Text color */
-    
-    color: #0F001A;
+.works_sekur {
+  display: inline-block;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 30px;
+  padding-bottom: 40px;
 }
 
-.VerifPar{
-    /* position: absolute; */
-    
-    
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    /* or 162% */
-    
-    text-align: center;
-    
-    /* Text color */
-    
-    color: #0F001A;
+.works_semil {
+  display: inline-block;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 30px;
+  padding-bottom: 40px;
 }
 
-
-
-.EnjoyJud{
-    /* position: absolute; */
-    
-    
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 27px;
-    /* identical to box height */
-    
-    
-    /* Text color */
-    
-    color: #0F001A;
+/* judul akun */
+.JudAkun {
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 500;
+  font-size: 18px;
 }
 
-.EnjoyPar{
-    /* position: absolute; */
-    
-    
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    /* or 162% */
-    
-    text-align: center;
-    
-    /* Text color */
-    
-    color: #0F001A;
+.Verif {
+  padding-top: 10px;
+  justify-content: center;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 500;
+  font-size: 18px;
 }
 
+.EnjoyJud {
+  padding-top: 10px;
+  justify-content: center;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.EnjoyPar {
+  justify-content: center;
+  font-size: 16px;
+}
+
+.VerifPar {
+  justify-content: center;
+  font-size: 16px;
+}
+
+.AccPar {
+  justify-content: center;
+  font-size: 16px;
+}

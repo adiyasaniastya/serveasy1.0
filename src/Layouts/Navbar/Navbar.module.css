@@ -1,13 +1,44 @@
+.Navbar {
+  /* background-color: #9fc1d8 -24.57%; */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+}
+
 .Tambahan {
-  padding: 100px;
+  /* padding: 100px;
   padding-top: 16px;
   padding-right: 20px;
   padding-left: 24px;
-  padding-bottom: 28px;
+  padding-bottom: 28px; */
 
-  margin: 48px;
-  margin-top: 48px;
+  margin-top: 4px;
   margin-right: 24px;
   margin-bottom: 32px;
   margin-left: 60px;
+}
+
+.emblem {
+  display: inline;
+}
+
+.TulisanLogo {
+  display: inline-block;
+  /* padding-right: 20px; */
+  padding-left: 24px;
+
+  /* padding-bottom: 28px; */
+  /* border-bottom: 10px; */
+}
+
+.tagline {
+  /* padding-top: 20px;
+  padding-bottom: 10px; */
+}
+
+.kal1 {
+  /* padding-top: 40px; */
+  border-right: 50px;
+  border-bottom: 40px;
 }

@@ -7,9 +7,9 @@ import Home5 from "./home5/Home5.js";
 const Homepage = () => {
   return (
     <>
-      {/* <Home1 /> */}
+      <Home1 />
       {/* <Home2 /> */}
-      {/* <Home3 /> */}
+      <Home3 />
       {/* <Home4 /> */}
       {/* <Home5 /> */}
     </>

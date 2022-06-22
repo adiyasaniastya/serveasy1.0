@@ -43,7 +43,7 @@ function Footer() {
                   <li className={Kelas.Jemput}> Layanan Antar Jemput </li>
                 </ul>
               </div>
-              <div className="col-md-3 col-sm-6">
+              <div className="col-md-4 col-sm-6">
                 <p
                   className={Kelas.SubsPar}
                   md={{
@@ -58,7 +58,11 @@ function Footer() {
                 <div className={Kelas.SubsArea}>
                   <Form>
                     <Form.Group className="mb-3" controlId="formBasicEmail">
-                      <Form.Control type="email" placeholder="Alamat Email" />
+                      <Form.Control
+                        className={Kelas.PlaceholderEmail}
+                        type="email"
+                        placeholder="Alamat Email"
+                      />
                     </Form.Group>
                   </Form>
                   <Button className={Kelas.SubsButton}> Langganan </Button>
@@ -67,8 +71,8 @@ function Footer() {
             </Row>
           </div>
         </Container>
-        <Container>
-          <div className={Kelas.Copyright}>
+        <div className={Kelas.Copyright}>
+          <Container>
             <Row className="footer-bottom">
               <Col className={Kelas.tulisanhak}>
                 Copyright &copy; {new Date().getFullYear()} {"\n"}
@@ -81,8 +85,8 @@ function Footer() {
                 <img src={Twitter} className={Kelas.Twitter} />
               </Col>
             </Row>
-          </div>
-        </Container>
+          </Container>
+        </div>
       </div>
     </>
   );

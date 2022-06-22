@@ -1,7 +1,7 @@
 import Kelas from "./Home1.module.css";
-import jumbo_hp from "../../../Assets/img/jumbo_hp.jpg";
-import emblem from "../../../Assets/img/emblem.jpg";
-import googleplay from "../../../Assets/img/googleplay.jpg";
+import jumbo_hp from "../../../Assets/img/jumbo_hp.png";
+import emblem from "../../../Assets/img/emblem.png";
+import googleplay from "../../../Assets/img/googleplay.png";
 import { Container, Row, Col, Carousel } from "react-bootstrap";
 
 const Home1 = () => {
@@ -9,16 +9,6 @@ const Home1 = () => {
     <>
       <Container fluid className={Kelas.main}>
         <Row>
-          <Col>
-            <img src={emblem} className={Kelas.emblem} />
-          </Col>
-          <Col className={Kelas.tagline} md lg="4">
-            ServEasy
-          </Col>
-          <Col className={Kelas.kal1}>
-            Get your service easy here {"\n"}
-            Dapatkan layanan Anda dengan mudah di sini
-          </Col>
           <Col className={Kelas.Saat}>
             Saat ini Hadir Aplikasi Layanan Jasa Service
           </Col>

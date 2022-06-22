@@ -1,63 +1,23 @@
 .main {
-  /* position: relative; */
-  /* position: static; */
+  /* position: absolute;
   width: 1440px;
-  height: 768px;
-  left: 0px;
-  top: 0px;
+  height: 609px;
+  left: 1440px;
+  top: 609px; */
+
+  /* background: linear-gradient(
+      359.45deg,
+      #082f49 -24.57%,
+      rgba(8, 47, 73, 0.13) 76.31%
+    ),
+    #ffffff; */
+  /* opacity: 0.2; */
+  /* transform: rotate(-180deg); */
 }
 
 /* .jumbotron {
   background-image: url("https://freebigpictures.com/wp-content/uploads/shady-forest.jpg")!important;
 } */
-
-.Emblem {
-  /* position: static; */
-  width: 101px;
-  float: left;
-  height: 110px;
-  left: 125px;
-  top: 78px;
-  
-}
-
-.tagline {
-  /* position: relative; */
-  width: 461px;
-  
-  height: 126px;
-  left: 244px;
-  top: 89px;
-
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 60px;
-  display: flex;
-  align-items: center;
-
-  color: #082f49;
-}
-
-.kal1 {
-  /* position: realtive; */
-  width: 461px;
-  height: 126px;
-  left: 244px;
-  top: 89px;
-
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 275;
-  font-size: 24px;
-  line-height: 36px;
-  display: flex;
-  align-items: center;
-
-  color: #000000;
-}
-
 .Saat {
   /* position: absolute; */
   width: 461px;

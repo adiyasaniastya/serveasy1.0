@@ -1,0 +1,8 @@
+footer:
+garis antara container copyright dan isi footer
+underline judul 3 kolom
+peletakan logo sosmed
+
+navbar:
+peletakan logo dan tulisan2
+background yg gradasi

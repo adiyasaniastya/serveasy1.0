@@ -2,7 +2,7 @@ import Kelas from "./Home4.module.css";
 import { Carousel } from "react-bootstrap";
 import { useState } from "react";
 
-import testimoni from "../../../Assets/img/testimoni.jpg";
+import testimoni from "../../../Assets/img/testimoni.png";
 function Home4() {
   const [index, setIndex] = useState(0);
 

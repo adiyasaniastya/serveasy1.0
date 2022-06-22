@@ -1,8 +1,8 @@
 import Kelas from "./Home2.module.css";
 // import { Button } from "react-bootstrap";
-import org_konsul from "../../../Assets/img/org_konsul.jpg";
-import org_jemput from "../../../Assets/img/org_jemput.jpg";
-import org_servis from "../../../Assets/img/org_servis.jpg";
+import org_konsul from "../../../Assets/img/org_konsul.png";
+import org_jemput from "../../../Assets/img/org_jemput.png";
+import org_servis from "../../../Assets/img/org_servis.png";
 import Card from "react-bootstrap/Card";
 
 const Home2 = () => {

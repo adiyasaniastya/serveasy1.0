@@ -1,5 +1,5 @@
 import Kelas from "./Home5.module.css";
-import googleplay from "../../../Assets/img/googleplay.jpg";
+import googleplay from "../../../Assets/img/googleplay.png";
 
 const Home5 = () => {
   return (
